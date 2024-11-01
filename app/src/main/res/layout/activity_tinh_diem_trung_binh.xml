@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_tinh_diem_trung_binh.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnTinhDiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tính Điểm Trung Bình" />
+
+    <TextView
+        android:id="@+id/txtDiemTrungBinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điểm trung bình: "
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtXepLoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xếp loại: "
+        android:layout_marginTop="8dp" />
+</LinearLayout>

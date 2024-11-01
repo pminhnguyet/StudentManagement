@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/tenMonEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên môn học" />
+
+    <EditText
+        android:id="@+id/soTinChiEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số tín chỉ"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/namHocEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Năm học" />
+
+    <EditText
+        android:id="@+id/giangVienEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giảng viên" />
+
+    <EditText
+        android:id="@+id/diemEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Điểm số"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/themMonButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm môn học" />
+
+    <Button
+        android:id="@+id/tinhDiemTBButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính điểm trung bình" />
+
+    <TextView
+        android:id="@+id/ketQuaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Kết quả sẽ hiển thị ở đây"
+        android:textSize="16sp" />
+</LinearLayout>
+
+<!-- activity_main.xml -->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:gravity="center"-->
+<!--    android:padding="16dp">-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnNhapDiem"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Nhập Điểm" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnTinhDiemTrungBinh"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Tính Điểm Trung Bình"-->
+<!--        android:layout_marginTop="16dp" />-->
+<!--</LinearLayout>-->
